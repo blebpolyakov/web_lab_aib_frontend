@@ -2,51 +2,51 @@
 ___________________________________________________
 ## Лабораторная работа №1
 
- % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-100  1256  100  1256    0     0   2590      0 --:--:-- --:--:-- --:--:--  2595<!doctype html>
-<html>
-<head>
-    <title>Example Domain</title>
 
-    <meta charset="utf-8" />
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <style type="text/css">
-    body {
-        background-color: #f0f0f2;
-        margin: 0;
-        padding: 0;
-        font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+`-v` - Этот ключ делает подробный вывод информации о запросе.
 
-    }
-    div {
-        width: 600px;
-        margin: 5em auto;
-        padding: 2em;
-        background-color: #fdfdff;
-        border-radius: 0.5em;
-        box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);
-    }
-    a:link, a:visited {
-        color: #38488f;
-        text-decoration: none;
-    }
-    @media (max-width: 700px) {
-        div {
-            margin: 0 auto;
-            width: auto;
-        }
-    }
-    </style>
-</head>
-
-<body>
-<div>
-    <h1>Example Domain</h1>
-    <p>This domain is for use in illustrative examples in documents. You may use this
-    domain in literature without prior coordination or asking for permission.</p>
-    <p><a href="https://www.iana.org/domains/example">More information...</a></p>
-</div>
-</body>
-</html>
+**GET** запрос
+>
+> ```shell
+> curl -v http://www.python.org/
+> ```
+HTTP ответ
+>```shell
+>  
+>```
+**GET** запрос
+>
+> ```shell
+> curl -v http://www.python.org/
+> ```
+HTTP ответ
+>```shell
+>  
+>```
+**GET** запрос
+>
+> ```shell
+> curl -v http://www.python.org/
+> ```
+HTTP ответ
+>```shell
+>  
+>```
+**GET** запрос
+>
+> ```shell
+> curl -v http://www.python.org/
+> ```
+HTTP ответ
+>```shell
+>  
+>```
+**GET** запрос
+>
+> ```shell
+> curl -v http://www.python.org/
+> ```
+HTTP ответ
+>```shell
+>  
+>```
