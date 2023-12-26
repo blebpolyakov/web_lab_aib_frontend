@@ -192,3 +192,141 @@ HTTP ответ
 - Response code: `301 Moved Permanently`
 - Protocol: `HTTP/1.1`
 ___________________________________________________
+
+
+## __[Saint 🌠 GIT](https://git-scm.com/)__
+
+**GET** запрос
+>
+> ```shell
+> curl -I -s -v -L -k https://git-scm.com/
+> ```
+HTTP ответ
+>```shell
+>* Connected to git-scm.com (188.114.98.224) port 443
+>* schannel: disabled automatic use of client certificate
+>* using HTTP/1.x
+>> HEAD / HTTP/1.1
+>> Host: git-scm.com
+>> User-Agent: curl/8.4.0
+>> Accept: */*
+>>
+
+>< HTTP/1.1 200 OK
+>< Date: Tue, 26 Dec 2023 12:50:13 GMT
+>< Content-Type: text/html; charset=utf-8
+>< Connection: keep-alive
+>< X-Frame-Options: SAMEORIGIN
+>< X-Xss-Protection: 1; mode=block
+>< X-Content-Type-Options: nosniff
+>< X-Download-Options: noopen
+>< X-Permitted-Cross-Domain-Policies: none
+>< Referrer-Policy: strict-origin-when-cross-origin
+>< Cache-Control: public, max-age=14400
+>< Etag: W/"4555dc199cf8e5ac99f1f0fd9b1e23ed"
+>< X-Request-Id: 815ffbd2-6cda-410c-ad9e-83397cce9d7e
+>< X-Runtime: 0.009214
+>< Via: 1.1 vegur
+>< CF-Cache-Status: HIT
+>< Age: 1506
+>< Server: cloudflare
+>< CF-RAY: 83b972c28e915aae-DME
+
+- Ip: `188.114.98.224`
+- Port: `443`
+- Host: `git-scm.com`
+- Cache-Control: `public, max-age=14400`
+- Content-Type: `text/html; charset=utf-8`
+- Response code: `200 OK`
+- Protocol: `HTTP/1.1`
+___________________________________________________
+
+## __[🐵 Jetbrains](https://www.jetbrains.com/)__
+
+**GET** запрос
+>
+> ```shell
+> curl -I -s -v -L -k https://www.jetbrains.com/
+> ```
+HTTP ответ
+>```shell
+>* Connected to www.jetbrains.com (18.66.97.10) port 443
+>> HEAD / HTTP/1.1
+>> Host: www.jetbrains.com
+>> User-Agent: curl/8.4.0
+>> Accept: */*
+>>
+>< HTTP/1.1 200 OK
+>< Content-Type: text/html; charset=utf-8
+>< Content-Length: 48898
+>< Connection: keep-alive
+>< Date: Tue, 26 Dec 2023 12:51:17 GMT
+>< Server: nginx
+>< X-Content-Type-Options: nosniff
+>< Referrer-Policy: same-origin
+>< Expires: Tue, 26 Dec 2023 12:51:17 GMT
+>< Cache-Control: max-age=0
+>< Pragma: no-cache
+>< X-Frame-Options: DENY
+>< X-Content-Type-Options: nosniff
+>< X-Xss-Protection: 1; mode=block
+>< Strict-Transport-Security: max-age=31536000;
+>< Vary: Accept-Encoding
+>< Via: 1.1 367a4718be97a49df7ac0500a986437a.cloudfront.net (CloudFront)
+>< Alt-Svc: h3=":443"; ma=86400
+>< Age: 280
+>< Set-Cookie: cf_country-region=RU-ROS; Domain=jetbrains.com; Path=/; Secure
+>< X-Cache: Hit from cloudfront
+>< X-Amz-Cf-Pop: FRA56-P2
+>< X-Amz-Cf-Id: xMIxAJfZ1HpgGY080HgnBTkqy3_uV45vHsWduOLhAB9fXzJhm92_Vw==
+
+
+- Ip: `18.66.97.10`
+- Port: `443`
+- Host: `www.jetbrains.com`
+- Cache-Control: `max-age=0`
+- Content-Type: `text/html; charset=utf-8`
+- Response code: `200 OK`
+- Protocol: `HTTP/1.1`
+___________________________________________________
+
+## __[💪 VSC - this is best choose](https://code.visualstudio.com/)__
+
+**GET** запрос
+>
+> ```shell
+> curl -I -s -v -L -k https://code.visualstudio.com/
+> ```
+HTTP ответ
+>```shell
+>* Connected to code.visualstudio.com (13.107.213.45) port 443
+>> HEAD / HTTP/1.1
+>> Host: code.visualstudio.com
+>> User-Agent: curl/8.4.0
+>> Accept: */*
+>>
+>< HTTP/1.1 200 OK
+>< Date: Tue, 26 Dec 2023 12:58:46 GMT
+>< Content-Type: text/html; charset=utf-8
+>< Content-Length: 49553
+>< Connection: keep-alive
+>< ETag: W/"c191-gRV3dKwYJtcZGAmSdhs78nRXDfU"
+>< Strict-Transport-Security: max-age=31536000; includeSubDomains
+>< Content-Security-Policy: frame-ancestors 'self'
+>< X-Frame-Options: SAMEORIGIN
+>< X-XSS-Protection: 1; mode=block
+>< X-Content-Type-Options: nosniff
+>< X-Powered-By: ASP.NET
+>< x-azure-ref: 20231226T125846Z-yr1udc8t7x4uzb750748fpzndc0000000b20000000000kv1
+>< X-Cache: CONFIG_NOCACHE
+>< Accept-Ranges: bytes
+
+
+- Ip: `13.107.213.45`
+- Port: `443`
+- Host: `code.visualstudio.com`
+- Cache-Control: `CONFIG_NOCACHE`
+- Content-Type: `text/html; charset=utf-8`
+- Response code: `200 OK`
+- Protocol: `HTTP/1.1`
+___________________________________________________
