@@ -17,24 +17,31 @@ ___________________________________________________
 > ```
 HTTP ответ
 >```shell
->>Connected to www.rgups.ru (80.72.224.90) port 443
->>HEAD / HTTP/1.1
->>Host: www.rgups.ru
->>User-Agent: curl/8.4.0
->>Accept: */*
+>> Connected to www.rgups.ru (80.72.224.90) port 443 # IP адрес веб сервера, порт к которому вы обращаетесь
+>> HEAD / HTTP/1.1 #протокол по которому осуществлялся запрос
+>> Host: www.rgups.ru  #истинное значение хоста ресурса
+>> User-Agent: curl/8.4.0 #характеристики, по которым сервера и сетевые узлы могут определить тип приложения, операционную систему, производителя и/или версию пользовательского агента.
+>> Accept: */* #указывает, какие типы контента, выраженные как MIME типы, клиент может понять (*/* - Любой MIME type)
+>
 >>
->< HTTP/1.1 200 OK
+>< HTTP/1.1 200 OK  #код ответа и его значение
 >< Server: nginx/1.19.1
 >< Date: Tue, 26 Dec 2023 11:29:02 GMT
->< Content-Type: text/html; charset=utf-8
->< Connection: keep-alive
+>< Content-Type: text/html; charset=utf-8  #данные о формате данных которые содержатся в теле ответа
+>< Connection: keep-alive #определяет, остаётся ли сетевое соединение активным после завершения текущей транзакции.
 >< X-Powered-By: ProcessWire CMS
 >< Set-Cookie: wire=bd8ffc1a2b4fa2617512b162317d2a29; path=/; HttpOnly; SameSite=Lax
 >< Expires: Thu, 19 Nov 1981 08:52:00 GMT
 >< Cache-Control: no-store, no-cache, must-revalidate
 >< Pragma: no-cache
 
->```
+- Ip: `80.72.224.90`
+- Port: `443`
+- Host: `www.rgups.ru`
+- Cache-Control: `?`
+- Content-Type: `text/html`
+- Response code: `200 OK`
+- Protocol: `HTTP/1.1`
 ___________________________________________________
 
 ## __[🐈Github](https://github.com/)__
@@ -46,11 +53,11 @@ ___________________________________________________
 > ```
 HTTP ответ
 >```shell
->>Connected to github.com (140.82.121.4) port 443
->>HEAD / HTTP/1.1
->>Host: github.com
->>User-Agent: curl/8.4.0
->>Accept: */*
+>> Connected to github.com (140.82.121.4) port 443
+>> HEAD / HTTP/1.1
+>> Host: github.com
+>> User-Agent: curl/8.4.0
+>> Accept: */*
 >>
 >< HTTP/1.1 200 OK
 >< Server: GitHub.com
@@ -65,7 +72,6 @@ HTTP ответ
 >< X-Content-Type-Options: nosniff
 >< X-XSS-Protection: 0
 
->```
 ___________________________________________________
 
 ## __[🐍 Python](https://www.python.org/)__
@@ -78,10 +84,10 @@ ___________________________________________________
 HTTP ответ
 >```shell
 >  * Connected to www.python.org (151.101.84.223) port 80
->>HEAD / HTTP/1.1
->>Host: www.python.org
->>User-Agent: curl/8.4.0
->>Accept: */*
+>> HEAD / HTTP/1.1
+>> Host: www.python.org
+>> User-Agent: curl/8.4.0
+>> Accept: */*
 >>
 >< HTTP/1.1 301 Moved Permanently
 >< Connection: close
