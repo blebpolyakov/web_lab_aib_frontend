@@ -37,7 +37,7 @@ HTTP ответ
 
 - Ip: `80.72.224.90`
 - Port: `443`
-- Host: `www.rgups.ru`
+- Host: `rgups.ru`
 - Cache-Control: `?`
 - Content-Type: `text/html`
 - Response code: `200 OK`
@@ -72,6 +72,13 @@ HTTP ответ
 >< X-Content-Type-Options: nosniff
 >< X-XSS-Protection: 0
 
+- Ip: `140.82.121.4`
+- Port: `443`
+- Host: `github.com`
+- Cache-Control: `?`
+- Content-Type: `text/html`
+- Response code: `200 OK`
+- Protocol: `HTTP/1.1`
 ___________________________________________________
 
 ## __[🐍 Python](https://www.python.org/)__
@@ -102,6 +109,13 @@ HTTP ответ
 >< X-Cache: HIT
 >< X-Cache-Hits: 0
 
+- Ip: `151.101.84.223`
+- Port: `80`
+- Host: `python.org`
+- Cache-Control: `?`
+- Content-Type: `text/html`
+- Response code: `301 Moved Permanently`
+- Protocol: `HTTP/1.1`
 ___________________________________________________
 **GET** запрос
 >
