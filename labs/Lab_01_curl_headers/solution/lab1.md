@@ -19,16 +19,16 @@ HTTP ответ
 > User-Agent: curl/8.4.0
 > Accept: */*
 >
-< HTTP/1.1 200 OK
-< Server: nginx/1.19.1
-< Date: Tue, 26 Dec 2023 11:29:02 GMT
-< Content-Type: text/html; charset=utf-8
-< Connection: keep-alive
-< X-Powered-By: ProcessWire CMS
-< Set-Cookie: wire=bd8ffc1a2b4fa2617512b162317d2a29; path=/; HttpOnly; SameSite=Lax
-< Expires: Thu, 19 Nov 1981 08:52:00 GMT
-< Cache-Control: no-store, no-cache, must-revalidate
-< Pragma: no-cache
+>< HTTP/1.1 200 OK
+>< Server: nginx/1.19.1
+>< Date: Tue, 26 Dec 2023 11:29:02 GMT
+>< Content-Type: text/html; charset=utf-8
+>< Connection: keep-alive
+>< X-Powered-By: ProcessWire CMS
+>< Set-Cookie: wire=bd8ffc1a2b4fa2617512b162317d2a29; path=/; HttpOnly; SameSite=Lax
+>< Expires: Thu, 19 Nov 1981 08:52:00 GMT
+>< Cache-Control: no-store, no-cache, must-revalidate
+>< Pragma: no-cache
 >```
 >___________________________________________________
 **GET** запрос
